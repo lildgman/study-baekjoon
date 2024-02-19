@@ -1,0 +1,8 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŸÁöÌ8∫µ”á‹1
+Ü
+java:S4165"iRemove this useless assignment; "isGroupWord" already holds the assigned value along all execution paths.(ñœ∫ê8áî⁄á‹1
+S
+java:S2589#"7Remove this expression which always evaluates to "true"(á¶ÀE8Õµ”á‹1
+G
+java:S1481"*Remove this unused "count" local variable.(Ê’øº8–µ”á‹1
