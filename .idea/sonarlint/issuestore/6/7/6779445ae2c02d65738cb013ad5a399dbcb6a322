@@ -1,8 +1,6 @@
 
+Q
+java:S1066"/Merge this if statement with the enclosing one.(’İ¾úüÿÿÿÿ8íö³°å1
 i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ùçší8ºµÓ‡Ü1
-†
-java:S4165"iRemove this useless assignment; "isGroupWord" already holds the assigned value along all execution paths.(–Ïº8‡”Ú‡Ü1
-S
-java:S2589#"7Remove this expression which always evaluates to "true"(‡¦ËE8ÍµÓ‡Ü1
-G
-java:S1481"*Remove this unused "count" local variable.(æÕ¿¼8ĞµÓ‡Ü1
+I
+java:S1125"'Remove the unnecessary boolean literal.(Ú¿ƒ³ÿÿÿÿÿ8÷³°å1
