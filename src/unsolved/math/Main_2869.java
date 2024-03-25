@@ -1,4 +1,4 @@
-package solved.math;
+package unsolved.math;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,20 +14,12 @@ public class Main_2869 {
         int b = Integer.parseInt(st.nextToken()); // 떨어지는 거리
         int v = Integer.parseInt(st.nextToken()); // 나무 높이
 
-        int target = 0;
-        int count = 0;
+        int day = (v-b) / (a-b); // 걸리는 일 수
 
-        while (true) {
-            count++;
-            target += a;
-            if (target < v) {
-                target -= b;
-
-            } else {
-                System.out.println(count);
-                break;
-            }
+        if ((v - b) % (a - b) != 0) { // 위에 올라갈 곳이 있다면?
+            day++;
         }
 
+        System.out.println(day);
     }
 }

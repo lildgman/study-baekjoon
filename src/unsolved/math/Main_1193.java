@@ -1,4 +1,4 @@
-package unsolved.d.math;
+package unsolved.math;
 
 import java.io.BufferedReader;
 import java.io.IOException;
